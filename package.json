@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "types":"module",
+  "types": "module",
   "scripts": {
-    "build:start": "npx tsc && node dist/index.js"
+    "build:start": "npx tsc && node dist/index.js",
+    "build:start2": "npx tsc && node dist/ejercicio1practica.js"
   },
   "keywords": [],
   "author": "Andrea Aguilar <andrea@gmail.com>",
@@ -13,6 +14,7 @@
   "type": "commonjs",
   "dependencies": {
     "@types/node": "^26.6.5",
+    "topicos-lib": "github:LuisRFuentes54/lib-topics#main",
     "typescript": "^7.0.2"
   }
 }

@@ -15,7 +15,7 @@ class Team {
 
     constructor(name: string, country: Country, ucl: number, cryLevel: number, lastTitle: number) {
         this.name = name;
-        this.country = country = country;
+        this.country = country;
         this.ucl = ucl;
         this.cryLevel = cryLevel;
         this.lastTitle = lastTitle
@@ -93,7 +93,7 @@ const result = teams
 
 console.log(result);
 
-async function test(): Promise<number> { //la promesa va a funcionar independientemente de el dato que diga, porque es un tipo abstracto, va a hacer lo que tenga que hacer y luego devolver el valor que se le colocí
+async function test(): Promise<number> { //la promesa va a funcionar independientemente de el dato que diga, porque es un tipo abstracto, va a hacer lo que tenga que hacer y luego devolver el valor que se le colocó
     return 0;
 }
 
